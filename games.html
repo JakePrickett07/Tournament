@@ -64,64 +64,26 @@
             color: black;
         }
 
-        .row1 {
-            display: flex;
-            gap: 200px;
-        }
-        .row2{
-            display: flex;
-            gap: 200px;
-        }
-        .one{
+        .row1, .row2, .row3, .row4 {
+            display: grid;
+            grid-template-columns: repeat(4, 200px);
+            gap: 300px;
+            justify-content: center;
             text-align: center;
-            background: linear-gradient(to right, #0066CC, #00458b);
-            padding: 10px;
-            border-radius: 5px;
+            padding: 100px;
+            
         }
-        .two {
-            text-align: center;
-            background: linear-gradient(to right, #0066CC, #00458b);
-            padding: 10px;
-            border-radius: 5px;
-        }
-        .three{
-            text-align: center;
-            background: linear-gradient(to right, #0066CC, #00458b);
-            padding: 10px;
-            border-radius: 5px;
 
-        }
-        .four{
+        .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen, .fifteen, .sixteen, .oneB, .twoB, .threeB, .fourB, .fiveB, .sixB, .sevenB, .eightB, .nineB, .tenB, .elevenB, .twelveB, .thirteenB, .fourteenB, .fifteenB, .sixteenB {
             text-align: center;
             background: linear-gradient(to right, #0066CC, #00458b);
-            padding: 10px;
+            padding: 15px;
             border-radius: 5px;
+            width: 200px;
+            box-sizing: border-box;
+            font-size: 30px;
+        }
 
-        }
-        .five {
-            text-align: center;
-            background: linear-gradient(to right, #0066CC, #00458b);
-            padding: 10px;
-            border-radius: 5px;
-        }
-        .six{
-            text-align: center;
-            background: linear-gradient(to right, #0066CC, #00458b);
-            padding: 10px;
-            border-radius: 5px;  
-        }
-        .seven{
-            text-align: center;
-            background: linear-gradient(to right, #0066CC, #00458b);
-            padding: 10px;
-            border-radius: 5px;
-        }
-        .eight{
-            text-align: center;
-            background: linear-gradient(to right, #0066CC, #00458b);
-            padding: 10px;
-            border-radius: 5px;
-        }
         </style>
         <body>
         <div class="intro">
@@ -164,7 +126,7 @@
             <p>01/06/27</p>
         </div>
     </div>
-    <br><br><br>
+  
     <div class="row2">
         <div class="five">
             <p><b>Spain v Morocco</b></p>
@@ -184,4 +146,109 @@
         </div>
     </div>
 
+    <div class="row3">
+        <div class="nine">
+            <p><b>Argentina v Denmark</b></p>
+            <p>03/06/27</p>
+        </div>
+        <div class="ten">
+            <p><b>Colombia v Ghana</b></p>
+            <p>03/06/27</p>
+        </div>
+        <div class="eleven">
+            <p><b>Germany v Norway</b></p>
+            <p>03/06/27</p>
+         </div>
+        <div class="twelve">
+            <p><b>Poland v Paraguay</b></p>
+            <p>03/06/27</p>
+        </div>
+        <div class="thirteen">
+            <p><b>Portugal v Switzerland</b></p>
+            <p>04/06/27</p>
+        </div>
+        <div class="fourteen">
+            <p><b>Austria v South Korea</b></p>
+            <p>04/06/27</p>
+        </div>
+        <div class="fifteen">
+            <p><b>Netherlands v Italy</b></p>
+            <p>04/06/27</p>
+        </div>
+        <div class="sixteen">
+            <p><b>Turkey v Czech Republic</b></p>
+            <p>04/06/27</p>
+        </div>
+    </div>
+
+    <hr>
+
+   <h1 style="font-size: 40px;"><u>Group Stage: Matchday 2 of 3</u></h1>
+
+   <div class="row4">
+    <div class="oneB">
+        <p><b>France v Japan</b></p>
+        <p>05/06/27</p>
+    </div>
+    <div class="twoB">
+        <p><b>Uruguay v Wales</b></p>
+        <p>05/06/27</p>
+    </div>
+    <div class="threeB">
+        <p><b>Brazil v USA</b></p>
+        <p>05/06/27</p>
+    </div>
+    <div class="fourB">
+        <p><b>Croatia v Greece</b></p>
+        <p>05/06/27</p>
+    </div>
+    <div class="fiveB">
+        <p><b>Spain v Sweden</b></p>
+        <p>06/06/27</p>
+    </div>
+    <div class="sixB">
+        <p><b>Morocco v Scotland</b></p>
+        <p>06/06/27</p>
+    </div>
+    <div class="sevenB">
+        <p><b>England v Mexico</b></p>
+        <p>06/06/27</p>
+    </div>
+    <div class="eightB">
+        <p><b>Belgium v Ukraine</b></p>
+        <p>06/06/27</p>
+    </div>
+    <div class="nineB">
+        <p><b>Argentina v Colombia</b></p>
+        <p>06/06/27</p>
+    </div>
+    <div class="tenB">
+        <p><b>Denmark v Ghana</b></p>
+        <p>06/06/27</p>
+    </div>
+    <div class="elevenB">
+        <p><b>Germany v Poland</b></p>
+        <p>07/06/27</p>
+   </div>
+   <div class="twelveB">
+        <p><b>Norway v Paraguay</b></p>
+        <p>07/06/27</p>
+    </div>
+    <div class="thirteenB">
+        <p><b>Portugal v Austria</b></p>
+        <p>07/06/27</p>
+    </div>
+    <div class="fourteenB">
+        <p><b>Switzerland v South Korea</b></p>
+        <p>07/06/27</p>
+    </div>
+    <div class="fifteenB">
+        <p><b>Netherlands v Turkey</b></p>
+        <p>08/06/27</p>
+    </div>
+    <div class="sixteenB">
+        <p><b>Italy v Czech Republic</b></p>
+        <p>08/06/27</p>
+    </div>
+   </div>
 </body>
